@@ -54,7 +54,7 @@
 #define X_MAX_PIN                           PG14
 #define Y_MIN_PIN                           PC13
 #define Y_MAX_PIN                           PG9
-#define Z_MIN_PIN                           PE0
+#define Z_MIN_PIN                           PH11
 #define Z_MAX_PIN                           PD3
 
 //
@@ -66,9 +66,9 @@
 //#define Y2_MIN_PIN                        PI7
 //#define Z_MIN_PIN                         PF6
 
-#if ENABLED(TP) && !defined(Z_MIN_PROBE_PIN)
-  #define Z_MIN_PROBE_PIN                   PH11  // Z Probe must be PH11
-#endif
+//#if ENABLED(TP) && !defined(Z_MIN_PROBE_PIN)
+//  #define Z_MIN_PROBE_PIN                   PH11  // Z Probe must be PH11
+//#endif
 
 //
 // Steppers
