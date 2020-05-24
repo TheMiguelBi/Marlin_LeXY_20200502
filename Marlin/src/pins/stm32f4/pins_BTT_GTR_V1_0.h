@@ -54,8 +54,8 @@
 #define X_MAX_PIN                           PG14
 #define Y_MIN_PIN                           PC13
 #define Y_MAX_PIN                           PG9
-#define Z_MIN_PIN                           PH11
-#define Z_MAX_PIN                           PD3
+#define Z_MIN_PIN                           PD3
+#define Z_MAX_PIN                           PH11
 
 //
 // Pins on the extender
