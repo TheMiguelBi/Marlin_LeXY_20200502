@@ -1,25 +1,25 @@
-/ * *
- * Firmware della stampante 3D Marlin
+/**
+ * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  *
- * Basato su Sprinter e grbl.
+ * Based on Sprinter and grbl.
  * Copyright (c) 2011 Camiel Gubbels / Erik van der Zalm
  *
- * Questo programma è un software gratuito: puoi ridistribuirlo e / o modificarlo
- * secondo i termini della GNU General Public License come pubblicato da
- * la Free Software Foundation, versione 3 della Licenza o
- * (a tua scelta) qualsiasi versione successiva.
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
  *
- * Questo programma è distribuito nella speranza che possa essere utile,
-* ma SENZA ALCUNA GARANZIA; senza nemmeno la garanzia implicita di
-* COMMERCIABILITÀ o IDONEITÀ PER UNO SCOPO PARTICOLARE. Vedi il
- * Licenza GNU General Public per maggiori dettagli.
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
  *
- * Dovresti aver ricevuto una copia della GNU General Public License
-* insieme a questo programma. In caso contrario, consultare <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * /
-# pragma una volta
+ */
+#pragma once
 
 # define  REVERSE_TEMP_SENSOR_RANGE
 
